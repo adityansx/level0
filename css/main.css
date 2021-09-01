@@ -13,6 +13,12 @@
 	margin: 10px;
 }
 
+@media(prefers-color-scheme: dark) {
+	.site-header {
+		background-color: #353639;
+	}
+}
+
 .profile-pic {
 	border-radius: 50%;
 	height: 200px;
@@ -22,7 +28,7 @@
 }
 
 .course-link {
-	font-family: monospace;
+	font-family: montserrat;
 	color: white;
 }
 
