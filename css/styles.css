@@ -8,6 +8,7 @@
 	/* variables for dark mode */
 	--dark-mode-primary-color: #353639;
 	--dark-mode-darker-grey: #1F1F1F;
+	--dark-mode-light-grey: #D1D5DB;
 }
 
 body {
@@ -173,7 +174,7 @@ turns on dark mode in website */
 	}
 
 	.hero .hero-heading {
-		color: #9CA3AF;
+		color: var(--dark-mode-light-grey);
 		padding-top: 1rem;
 		text-align: center;
 	}
